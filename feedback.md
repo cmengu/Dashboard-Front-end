@@ -248,3 +248,23 @@ batch-apply. Four dropdowns + a threshold row = inline panel wins.
 **Refuse** (consumer-toy in a clinical tool): parallax, tilt cards,
 glassmorphism on data, pulsing "live" dots on batch data, springy overshoot,
 count-up on refetch, slow skeleton shimmer.
+
+---
+
+## Open questions (answers may reshuffle priorities)
+
+1. **Which filters do users actually touch?** Tier-1 pick (Arm · Relatedness ·
+   Cut-off) is an educated guess; if cohort is filtered constantly, it moves up.
+2. **Row counts at scale** — 54 AEs now; if this grows to thousands, revisit
+   instant-apply (may need debounce/batch) and pagination vs. virtualized scroll.
+
+## Sources (filter pattern + DataGrid styling)
+
+- Pencil & Paper — Enterprise Filtering UX:
+  https://www.pencilandpaper.io/articles/ux-pattern-analysis-enterprise-filtering
+- LogRocket — Filtering UX patterns:
+  https://blog.logrocket.com/ux-design/filtering-ux-ui-design-patterns-best-practices/
+- Eleken — Filter UI for SaaS: https://www.eleken.co/blog-posts/filter-ux-and-ui-for-saas
+- UXPin — Filter UI & UX: https://www.uxpin.com/studio/blog/filter-ui-and-ux/
+- MUI X DataGrid Styling: https://mui.com/x/react-data-grid/style/
+- MUI X Styling Recipes: https://mui.com/x/react-data-grid/style-recipes/
